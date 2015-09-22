@@ -7,7 +7,7 @@ A simple HTTP request/response logger middleware for Go
 
 ## Usage
 Using plog as logger middleware in [Julien Schmidt's httprouter](https://github.com/julienschmidt/httprouter)
-```
+```go
 package main
 
 import (
@@ -47,7 +47,7 @@ See example folder for more example.
 | Prefix 	| string 	| [log] 	| Prefix of log 	|
 
 Example
-```
+```go
 options := plog.Options{
   Debug:  true,
   Prefix: "[log ]",
